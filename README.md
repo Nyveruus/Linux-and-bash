@@ -73,7 +73,7 @@ Severity levels:
 -	Low				Hardening recommendation
 	
 ## CHECK FUNCTIONS
-### ACCOUNTS
+### accounts
 
 - Non-root accounts with root UID
 - Users with empty passwords
@@ -83,13 +83,13 @@ Severity levels:
 - Service accounts with interactive login shells
 - List members of sudo and/or wheel
 
-### PWPOLICY
+### pwpolicy
 
 - Password aging policy is enabled and password aging settings
 - Password history is enabled
 - Password quality policy is enabled (PAM pwquality) and settings
 
-### SSH
+### ssh
 
 - SSH config file exists (/etc/ssh/sshd_config)
 - SSH config settings
@@ -97,7 +97,7 @@ Severity levels:
 - Maximum authentication and max session settings
 - Permissions for ~/.ssh/authorized_keys (all home directories)
 
-### PERMISSIONS
+### permissions
 
 - World writable system files in important sytem directories
 - World writable system directories have sticky bit set
