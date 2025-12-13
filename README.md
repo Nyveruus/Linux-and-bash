@@ -83,13 +83,13 @@ Severity levels:
 - Service accounts with interactive login shells
 - List members of sudo and/or wheel
 
-### PASSWORD POLICIES
+### PWPOLICY
 
 - Password aging policy is enabled and password aging settings
 - Password history is enabled
 - Password quality policy is enabled (PAM pwquality) and settings
 
-### SSH CONFIG
+### SSH
 
 - SSH config file exists (/etc/ssh/sshd_config)
 - SSH config settings
