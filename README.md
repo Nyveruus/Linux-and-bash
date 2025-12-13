@@ -40,10 +40,10 @@ distro.sh contains the necessary functions for detecting the system distro and w
 
 The meat of the program. This contains all of the "check" functions for the four categories.
 
-accounts_checks.sh
-permissions_checks.sh
-pwpolicy_checks.sh
-permissions_checks.sh
+1. accounts_checks.sh
+2. permissions_checks.sh
+3. pwpolicy_checks.sh
+4. permissions_checks.sh
 
 ### reports/
 
@@ -53,28 +53,24 @@ This is the directory where audits are saved
 
 Usage: ./lat.sh [options] [arguments]
 
-Options:
-	-h, --help			Show a help message and exit
-	-c, --category		Run checks for a specific category, see below
-	--version			Show tool version and exit
+### Options:
 
-Categories:
-  accounts
-    User account security checks
+- -h, --help			Show a help message and exit
+- -c, --category		Run checks for a specific category, see below
+- --version			    Show tool version and exit
 
-  pwpolicy
-    Password policy and aging checks
+### Categories:
 
-  ssh
-    SSH config checks
-
-  permissions
-    File and important permission checks
+- accounts: User account security checks
+- pwpolicy: Password policy and aging checks
+- ssh: SSH config checks
+- permissions: File and important permission checks
 
 Severity levels:
-	Critical		Immediate security risk
-	Medium			Potential security risk
-	Low				Hardening recommendation
+
+-	Critical		Immediate security risk
+-	Medium			Potential security risk
+-	Low				Hardening recommendation
 	
 ## CHECK FUNCTIONS
 ### ACCOUNTS
