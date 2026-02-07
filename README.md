@@ -15,7 +15,7 @@ Every flaw has three possible severities:
 2. Medium - designated for potential security risks
 3. Low - small flaws that relate more to ways to harden your system
 
-And each warning outputted will have a suffix of [C], [M] or [L] respectively to easily interpret the severity of the flaw that the warning is outputting.
+And each warning outputted will have a suffix of [C], [M] or [L] respectively to interpret the severity of the flaw that the warning is outputting.
 
 ./lat.sh by default runs all categories. If the user so desires, they may specify the categories that they specifically want to audit, using the option -c or --category. 
 
